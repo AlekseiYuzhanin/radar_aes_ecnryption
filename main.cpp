@@ -6,7 +6,10 @@
 #include <iostream>
 
 int main() {
-    std::string plaintext = "text";
+    std::string plaintext;
+    std::cout << "Введите текст для шифрования : " << std::endl;
+    std::cin >> plaintext;
+    
     std::string key = generateRandomKey(32);
 
     std::string encryptedText = encryptAES(plaintext, key);
