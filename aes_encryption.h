@@ -1,5 +1,5 @@
-#ifndef AES_ENCRYPTOR_H
-#define AES_ENCRYPTOR_H
+#ifndef AES_ENCRYPTION_H
+#define AES_ENCRYPTION_H
 
 #include <string>
 

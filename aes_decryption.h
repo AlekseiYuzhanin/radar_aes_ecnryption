@@ -1,5 +1,5 @@
-#ifndef AES_DECRYPTOR_H
-#define AES_DECRYPTOR_H
+#ifndef AES_DECRYPTION_H
+#define AES_DECRYPTION_H
 
 #include <string>
 
